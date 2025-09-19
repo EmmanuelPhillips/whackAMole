@@ -1,0 +1,57 @@
+body {
+    background: #323437;
+    color: #d1d0c5;
+    opacity: 1;
+    text-align: center;
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn", monospace;
+}
+
+.status {
+    color: #e2b714;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#moleBoard {
+    width: 600px;
+    height: 600px;
+    background-color: #757572;
+    margin: 10px auto;
+    border: 1px solid #a6aca6;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.boardTile {
+    border: 1px solid #a6aca6;
+}
+
+.moleTile {
+    background-color: #e2b714;
+    border: 1px solid #a6aca6;
+}
+
+.moleHitTile {
+    background-color: #ca4754;
+    border: 1px solid #a6aca6;
+}
+
+#startButton {
+    background-color: #887b77;
+    color: #d1d0c5;
+    font-size: 30px;
+    height: 100px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+#resetButton {
+    background-color: #887b77;
+    color: #d1d0c5;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+}
